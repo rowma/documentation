@@ -59,7 +59,8 @@ const siteConfig = {
   twitterUsername: 'rowmaio',
 
   disableHeaderTitle: true,
-  docsUrl: ''
+  docsUrl: '',
+  translationRecruitingLink: 'https://crowdin.com/project/rowma',
 };
 
 module.exports = siteConfig;
