@@ -10,15 +10,10 @@ const users = [
 const siteConfig = {
   title: 'Rowma Docs', // Title for your website.
   tagline: 'Documentation for Rowma',
-  url: 'https://github.com/rowma', // Your website URL
-  baseUrl: '/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
-
-  // Used for publishing and more
-  projectName: 'Rowma',
-  organizationName: 'rowmaio',
+  url: 'https://rowma.github.io',
+  baseUrl: '/documentation/', // The name of your GitHub project.
+  projectName: 'documentation',  // The name of your GitHub project. Same as above.
+  organizationName: 'rowma', // Your GitHub username.
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
