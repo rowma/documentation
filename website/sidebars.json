@@ -1,9 +1,9 @@
 {
   "docs": {
-    "Getting Started": ["doc1"],
-    "ConnectionManager": ["doc2"],
-    "Rowma ROS": ["doc3"],
-    "SDKs": ["doc4"]
+    "Getting Started": ["getting-started"],
+    "ConnectionManager": ["connection-manager-overview"],
+    "Rowma ROS": ["rowma-ros-overview"],
+    "SDKs": ["javascript-sdk", "python-sdk"]
   },
   "docs-other": {
     "First Category": ["doc4", "doc5"]
