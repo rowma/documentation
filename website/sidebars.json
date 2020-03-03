@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Getting Started": ["getting-started"],
+    "Getting Started": ["getting-started", "system-architecture"],
     "ConnectionManager": ["connection-manager-overview"],
     "Rowma ROS": ["rowma-ros-overview"],
     "SDKs": ["javascript-sdk", "python-sdk"]

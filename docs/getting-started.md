@@ -23,7 +23,7 @@ There are 2 steps to connect your robot to Rowma network.
 First, clone `rowma_ros` into your ROS workspace from the GitHub repository (we are planning to upload it to apt repository).
 
 ```
-$ cd catkin_ws/src
+$ cd ~/catkin_ws/src
 $ git clone https://github.com/rowma/rowma_ros
 ```
 
@@ -44,11 +44,6 @@ First, select the robot's UUID from the select box and push the `Connect` button
 Finally, you can push `Run` button after select a command.
 
 <!-- Need figures -->
-
-## System Architecture
-This system consists of 3 components: 1) ConnectionManager; 2) Rowma ROS; 3) Application implemented by using a distributed SDK.
-
-This is the overview of the system architecture.
 
 ## Acknowledgement
 This software is maintained as a part of research in the Cloud Robotics field.
