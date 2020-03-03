@@ -1,10 +1,9 @@
 ---
 id: getting-started
-title: Latin-ish
+title: Rowma: A Reconfigurable Robot Network Construction System
 sidebar_label: First Step
 ---
 
-# Rowma: A Reconfigurable Robot Network Construction System
 Rowma is a framework for ROS-based robots that can form a **robot network** easily.
 
 The key features are below:
