@@ -12,6 +12,8 @@ The key features are below:
 * Send a rostopic over the Internet
 * Distribute SDKs to develop an application
 * Send a rostopic **among an application and a robot** or **between robots**
+* Integrate a robot **easily**
+* Reconfigurate robot nodes easily
 
 This video shows an example of controlling a wheeled robot over the Internet from a smartphone.
 
