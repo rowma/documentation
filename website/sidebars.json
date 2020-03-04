@@ -1,6 +1,7 @@
 {
   "docs": {
     "Getting Started": ["getting-started", "system-architecture"],
+    "Examples": ["remote-control-from-sp", "robot-to-robot-communication"],
     "ConnectionManager": ["connection-manager-overview", "host-your-network"],
     "Rowma ROS": ["rowma-ros-overview"],
     "SDKs": ["javascript-sdk", "python-sdk"]
