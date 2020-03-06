@@ -37,9 +37,13 @@ Second, run the node.
 $ rosrun rowma_ros rowma
 ```
 
+![rowma-ros-screenshot](/documentation/img/rowma-ros-screenshot.png)
+
 You would see the output of `Your UUID is: xxxxxx-xxxxxx-xxx-xxx` after your robot successfuly connects to the network. That is your robot's UUID to connect.
 
-The next step is operating the connected robot over the Internet. Open [https://rowma.github.io/sample-application](https://rowma.github.io/sample-application).
+The next step is operating the connected robot over the Internet. Open [https://rowma.github.io/public-console](https://rowma.github.io/public-console).
+
+![rowma-public-console](/documentation/img/rowma-public-console.png)
 
 First, select the robot's UUID from the select box and push the `Connect` button. After that, you can see a list of rosrun/roslaunch commands in a select box.
 
