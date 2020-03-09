@@ -82,10 +82,12 @@
 <p>First, clone <code>rowma_ros</code> into your ROS workspace from the GitHub repository (we are planning to upload it to apt repository).</p>
 <pre><code class="hljs"><span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> ~/catkin_ws/src</span>
 <span class="hljs-meta">$</span><span class="bash"> git <span class="hljs-built_in">clone</span> https://github.com/rowma/rowma_ros</span>
+<span class="hljs-meta">$</span><span class="bash"> <span class="hljs-built_in">cd</span> rowma_ros &amp;&amp; pip install -r requirements.txt &amp;&amp; <span class="hljs-built_in">cd</span>..</span>
 </code></pre>
 <p>Second, run the node.</p>
 <p><strong>Note that your robot will connect to the default public network for test use.</strong></p>
-<pre><code class="hljs">$ rosrun rowm<span class="hljs-built_in">a_ros</span> rowma
+<pre><code class="hljs"><span class="hljs-variable">$ </span>roscore
+<span class="hljs-variable">$ </span>rosrun rowma_ros rowma
 </code></pre>
 <p><img src="/documentation/img/rowma-ros-screenshot.png" alt="rowma-ros-screenshot"></p>
 <p>You would see the output of <code>Your UUID is: xxxxxx-xxxxxx-xxx-xxx</code> after your robot successfuly connects to the network. That is your robot's UUID to connect.</p>
