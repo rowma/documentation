@@ -27,6 +27,7 @@ First, clone `rowma_ros` into your ROS workspace from the GitHub repository (we 
 ```
 $ cd ~/catkin_ws/src
 $ git clone https://github.com/rowma/rowma_ros
+$ cd rowma_ros && pip install -r requirements.txt && cd..
 ```
 
 Second, run the node.
@@ -34,6 +35,7 @@ Second, run the node.
 **Note that your robot will connect to the default public network for test use.**
 
 ```
+$ roscore
 $ rosrun rowma_ros rowma
 ```
 
