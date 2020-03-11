@@ -1,6 +1,6 @@
 {
   "docs": {
-    "Getting Started": ["getting-started", "system-architecture"],
+    "Getting Started": ["getting-started", "system-architecture", "delay"],
     "Examples": ["remote-control-from-sp", "robot-to-robot-communication"],
     "ConnectionManager": ["connection-manager-overview", "host-your-network", "database"],
     "Rowma ROS": ["rowma-ros-overview"],
