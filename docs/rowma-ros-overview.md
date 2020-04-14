@@ -12,14 +12,19 @@ You can run the following command below at your terminal.
 python <(curl "https://raw.githubusercontent.com/rowma/rowma_ros/master/install.py" -s -N)
 ```
 
+### Manual setup
+You can install `rowma_ros` manually if the above script does not go well.
+
 ```sh
 cd ~/catkin_ws/src
 git clone https://github.com/rowma/rowma_ros
+sudo apt-get install ros-melodic-rosbridge-server
 cd rowma_ros && pip install -r requirements.txt && cd..
+catkin_make
 ```
 
 ## Options
-There are some options specified at `rosrun`.
+There are some options that can be specified at `rosrun`.
 
 |name|value|description|
 |:-|:-|:-|
