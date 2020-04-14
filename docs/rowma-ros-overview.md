@@ -37,5 +37,5 @@ There are some options that can be specified at `rosrun`.
 |:-|:-|:-|
 |ROWMA_DEBUG|boolean|Debug logs are shown if you set this value as True.|
 |API_KEY|string|API_KEY can be specified for authentication. This value is used along with an authenticator server specified by ROWMA_SERVER_URL.|
-|ROWMA_SERVER_URL|string|This value describes ConnectionManager URL. The default value is https://rocky-peak-54058.herokuapp.com.|
+|ROWMA_SERVER_URL|string|This value describes ConnectionManager URL. The default value is https://rowma.moriokalab.com.|
 |UUID|string|You can use an arbitrary UUID by using this variable.|
