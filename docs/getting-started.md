@@ -24,10 +24,8 @@ There are 2 steps to connect your robot to Rowma network.
 
 First, clone `rowma_ros` into your ROS workspace from the GitHub repository (we are planning to upload it to apt repository).
 
-```
-$ cd ~/catkin_ws/src
-$ git clone https://github.com/rowma/rowma_ros
-$ cd rowma_ros && pip install -r requirements.txt && cd..
+```sh
+python <(curl "https://raw.githubusercontent.com/rowma/rowma_ros/master/install.py" -s -N)
 ```
 
 Second, run the node.
