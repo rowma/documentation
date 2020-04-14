@@ -23,6 +23,13 @@ cd rowma_ros && pip install -r requirements.txt && cd..
 catkin_make
 ```
 
+## Run rowma_ros node
+Finally, you can run `rowma_ros` node.
+
+```
+rosrun rowma_ros rowma
+```
+
 ## Options
 There are some options that can be specified at `rosrun`.
 
