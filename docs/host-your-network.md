@@ -6,6 +6,23 @@ sidebar_label: Host Your Network
 
 This page explains how to host your own network to the cloud.
 
+## Launch ConnectionManager on localhost
+You can launch ConnectionManager on your local computer.
+
+```bash
+git clone https://github.com/rowma/rowma
+cd rowma
+npm i
+npm run build
+npm start
+```
+
+ConnectionManager starts with port 3000, you can change the port by specifying `PORT=3001` like bellow.
+
+```bash
+npm run build && PORT=3001 npm start
+```
+
 ## Host on Heroku
 You should follow these 3 steps below.
 

@@ -25,5 +25,3 @@ Also, you can use an external managed mongdb by specifying the URI.
 ```
 $ ROWMA_DB=mongodb MONGODB_URI=mongodb://root:rootpass@mongodb.example.com:27017 npm start
 ```
-
-(TLS feature to access Amazon DocumentDB is coming soon)
